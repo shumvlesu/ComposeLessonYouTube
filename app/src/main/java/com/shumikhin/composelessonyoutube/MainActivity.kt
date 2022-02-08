@@ -20,5 +20,5 @@ class MainActivity : ComponentActivity() {
 @Preview (showBackground = true) // showBackground = true - показывать бэкграунд у виджета
 @Composable
 fun NewText(){
-    Text(text = "Hello 34")
+    Text(text = "Rule 34")
 }
