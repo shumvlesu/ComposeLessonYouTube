@@ -17,8 +17,9 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Preview (showBackground = true) // showBackground = true - показывать бэкграунд у виджета
+@Preview(showBackground = true) // showBackground = true - показывать бэкграунд у виджета
+//Аннотация @Preview позволяет сразу видеть изменения в окне предпросмотра
 @Composable
-fun NewText(){
-    Text(text = "Rule 34")
+fun NewText() {
+    Text(text = "Привет!")
 }
