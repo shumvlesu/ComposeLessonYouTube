@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Preview
+
 @Composable
 private fun ListItem(name: String, prof: String, pic: Int) {
     Card(
